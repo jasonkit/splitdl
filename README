@@ -1,0 +1,6 @@
+Usage:
+./splitdl.sh <URL> <no. of connection> [output file name]
+
+Please be noticed that this script is only tested on Mac OS X 10.6
+It may not work out of the box on other platform since the usage of
+command used in this splitdl maybe different among different platform
