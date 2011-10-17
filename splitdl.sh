@@ -97,7 +97,7 @@ if [ "$o" == "" ]; then
 	o=`basename $url`
 fi
 
-# Obtain Remove file size
+# Obtain Remote file size
 length=`curl -Is $url | 
 		grep "Content-Length:" | 
 		sed "s/Content-Length: //g" | tr -d "\n\r"`
